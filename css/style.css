@@ -1,0 +1,28 @@
+body {
+    font-family:'Open Sans', sans-serif;
+    background-color:#5C5313;
+    color:#EFE9C3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'nerko one', cursive;
+    font-size:40pt;
+}
+
+header {
+    text-align:center;
+}
+#hero, footer {
+    color:#9E8036;
+    background-color:#DBC45E;
+    border: 10px solid;
+    text-align:center;
+    padding:10px;
+}
+#hero img {
+    width:350px;
+}
+
+#bio {
+    text-align:center;
+}
