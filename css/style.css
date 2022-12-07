@@ -5,13 +5,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'nerko one', cursive;
-    font-size:40pt;
+    font-family: 'nerko one',cursive;
+}
+h1 {
+    font-size: 40pt;
 }
 
 header {
     text-align:center;
 }
+/* hero Section */ 
+
 #hero, footer {
     color:#9E8036;
     background-color:#DBC45E;
@@ -23,6 +27,84 @@ header {
     width:350px;
 }
 
+/* Bio Section */
 #bio {
     text-align:center;
+}
+h2 {
+    font-size: 35px;
+    text-align:center;
+}
+
+/* hobbies Section */
+#hobbies  {
+    color:#9E8036; 
+    background-color:#C4BE9C;
+    border: 10px solid;
+    font-size: 20px;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+#list { 
+    border: 10px solid;
+    font-size: 20px;
+    padding: 12px;
+}
+
+/* Gallery Section */
+
+#gallery {
+    border: 10px solid
+
+}
+#gallery div {
+    margin: 0 auto;
+}
+#gallery2 div {
+    margin: 0 auto;
+} 
+.column {
+    float: left;
+    margin: 0 auto;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+#gallery-figure {
+    text-align:center;
+}
+
+/* Book Section */
+
+h3 {
+    
+}
+#book {
+    border: 20pt solid;
+}
+#book div {
+    padding:3rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#book div p{
+    padding: 0.3em 0;
+    clear: both;
+}
+/* drop caps */
+
+#book div p:nth-child(4n+1):first-letter {
+    color:black;
+    float: left;
+    font-size:3em;  
+    background-color: seagreen;
+    line-height: 1;
+    border:4px outset blue;
+    margin-right: .65rem;
+    border-radius: 20%;
+    box-shadow:10px 10px 10px
+
 }
