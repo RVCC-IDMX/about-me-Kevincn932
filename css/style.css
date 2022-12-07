@@ -138,6 +138,8 @@ h3 {
 h3 {
     
 }
+
+
 #book {
     border: 40px solid;
     padding: 10px; 
@@ -151,8 +153,15 @@ h3 {
     padding: 0.3em 0;
     clear: both;
 }
-/* drop caps */
 
+/* drop caps */
+@media screen and (min-width: 1770px) {
+#book {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/2;
+}
+}
 #book div p:nth-child(4n+1):first-letter {
     color:black;
     float: left;
@@ -162,6 +171,8 @@ h3 {
     border:4px outset blue;
     margin-right: .65rem;
     border-radius: 20%;
-    box-shadow:10px 10px 10px
+    box-shadow:10px 10px 10px;
 
 }
+
+
