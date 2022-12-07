@@ -25,6 +25,16 @@ header {
 }
 #hero img {
     width:350px;
+    max-width: 100%;
+}
+@media screen and (min-width: 1050px) {
+    #hero figure {
+        display:grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+    #hero figure figcaption {
+        align-self:center;
+    }
 }
 
 /* Bio Section */
@@ -50,13 +60,14 @@ h3 {
 #list { 
     border: 10px solid;
     font-size: 20px;
-    padding: 12px;
+    padding: 20px;
+
 }
 
 /* Gallery Section */
 
 #gallery {
-    border: 10px solid;
+    border: 20px solid;
     text-align:center;
 }
 #gallery img {
@@ -128,7 +139,8 @@ h3 {
     
 }
 #book {
-    border: 20pt solid;
+    border: 40px solid;
+    padding: 10px; 
 }
 #book div {
     padding:3rem;
