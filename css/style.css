@@ -211,9 +211,6 @@ legend {
     padding: .5em;
     font-size: .8rem;
 }
-#contact button {
-    color:#3b3525
-}
 
 #contact ul{
     list-style:none;
@@ -230,6 +227,17 @@ legend {
     width: 50%;
     max-width: 400px;
     justify-self: center;
+    color:#3b3525
+}
+@media screen and (max-width: 425px) {
+legend {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 425px) {
+    legend {
+            text-align: center;
+        }
 }
 
 @media screen and (min-width: 768px) {
