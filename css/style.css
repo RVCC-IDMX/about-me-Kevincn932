@@ -139,7 +139,7 @@ section#hobbies {
 
 .videorapper {
     object-fit: contain;
-    border: 10px solid;
+    border: 50px solid;
     padding: 20px;
 }
 
@@ -179,16 +179,63 @@ section#hobbies {
     }
 }
 /* Contact Form */
-
-#formElements {
+#formelements {
     display: grid;
     row-gap: .5em;
 }
+
 #contact {
     padding: 1rem;
-    max-width: 50%;
+    max-width: 75%;
     margin: 2rem auto;
     border:#DBC45E 20px solid;
-    
+    border-radius: 5%;
+    background-color:#948c55;
+}
 
+fieldset {
+    border:5px solid #9E8036;
+    margin-top: 1em;
+}
+
+legend {
+    background-color:#493500;
+    border:#2e2200 4px outset;
+    border-radius: 50%;
+    box-shadow:#130e00 4px 4px 4px;
+    padding: 15px;
+    color:#EFE9C3;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: .8rem;
+}
+#contact button {
+    color:#3b3525
+}
+
+#contact ul{
+    list-style:none;
+    padding: 2px;
+}
+
+#contact li {
+    margin:0.5rem;
+}
+
+#contact button {
+    background-color:#8d7f15;
+    border: 2px solid darkgrey;
+    width: 50%;
+    max-width: 400px;
+    justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    #contact button {
+        padding: 1em;
+        font-size: 20px;
+        color:#3b3525
+    }
 }
