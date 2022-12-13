@@ -178,3 +178,8 @@ section#hobbies {
         grid-column: 1/-1;
     }
 }
+/* Contact Form */
+
+#formElements {
+    display: grid;
+}

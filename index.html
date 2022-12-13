@@ -122,12 +122,66 @@
                 <figcaption>This is a video I took in slovakia, my parents used to live here. I took a lot of pictures when i was there during the summer.</figcaption>
             </div>
         </section>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <form id="contactForm" name="contactform" data-netlify="true" method="post"> 
+                <fieldset>
+                        <legend>Contact Form</legend>
+
+                    <div id="formElements">
+                        <!--Name-->
+                        <label for="name">Name (required)</label>
+                        <input type="text" id="name" name="name" required>
+                        <!--Email-->
+                        <label for="email">Email (required)</label>
+                        <input type="email" id="email" name="email" required>
+                        <!--Phone-->
+                        <label for="phone">Phone (optinal)</label>
+                        <input type="tel" id="tel" name="phone">
+                        <!--Phone type-->
+                        <label for="phonetype" name="phonetype">Phonetype (optinal)</label>
+                        <select  id="phonetype">
+                            <option value=""selected>Select phone type</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Work">Work</option>
+                            <option value="Home">Home</option>
+                        </select>
+                        <!--Message-->
+                        <label for="message">Message (optinal)</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        
+                        <!--Reply-->
+                        <fieldset>
+                            <Legend>Would you like to reply?</Legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="message-yes" value="Yes a reply please" name="reply">
+                                    <label for="message-yes">Yes a reply would be nice</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="message-no" name="reply" value="no reply please" checked>
+                                    <label for="message-no">No, thanks</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+
+                        <!--Submit-->
+
+                        <Button type="submit">Submit</Button>
+
+                    </div>
+                </fieldset>
+
+            </form>
+
+        </section>
         </main>
+
 
             <footer>
                ©2022 - Kevin Vojtek
             </footer>
-
+        
     </body>
 
 </html>
