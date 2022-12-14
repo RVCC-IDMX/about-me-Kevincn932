@@ -247,3 +247,58 @@ legend {
         color:#3b3525
     }
 }
+
+/* navbar */
+
+.nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    margin-left: 1em;
+    height: 6%;
+    display: flex;
+    align-items: center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+} 
+
+
+*, *::before *::after {
+    box-sizing: border-box;
+}  
+
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1,1)
+} 
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+
