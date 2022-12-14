@@ -19,10 +19,8 @@ In the web forms area I finally learned how to make a good color scheme when it 
 
 Finally, the navigation bar, i learned how to make the navigation bar motions by putting in the code called transitions. Also making it opacity slightly low so that it doesnt fully block the stuff behind the navigation bar.  
 
-
-
 ###### Color Scheme:
-
+![Different color schemes](img/Capture.PNG%202.PNG)
 ###### Citations:
 
 ###### License: 
