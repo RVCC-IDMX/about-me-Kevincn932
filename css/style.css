@@ -178,6 +178,20 @@ section#hobbies {
         grid-column: 1/-1;
     }
 }
+@media screen and (min-width: 1200px) {
+    #video .videorapper {
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    #video iframe {
+        max-width:500px;
+        margin: 0px auto;
+    }
+    #video .videorapper figcaption{
+        text-align:center;
+    }
+
+}
 /* Contact Form */
 #formelements {
     display: grid;
@@ -255,10 +269,10 @@ legend {
 }
 .nav-toggle-label {
     position: absolute;
-    top: 0;
+    top: 0px;
     right: 10%;
     margin-left: 1em;
-    height: 6%;
+    height: 3em;
     display: flex;
     align-items: center;
 }

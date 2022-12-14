@@ -112,8 +112,8 @@ such that no text wraps
     }
     header {
         display: grid;
-        grid-template-columns: auto ;
-        background-color: #c4b544
+        grid-template-columns: auto;
+        background: #c4b544;
     }
     .navbar {
         all: unset;
@@ -125,4 +125,12 @@ such that no text wraps
         opacity: 1;
         
     }
+
+    .navbar-links a {
+        transition-duration: 0s;
+    }
+    .nav-toggle:checked ~ nav a {
+        transition-duration: 0s;
+    }
+    
 }
