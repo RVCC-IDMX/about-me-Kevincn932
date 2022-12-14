@@ -17,7 +17,7 @@ h2 {
     
 }
 h3 {
-    color:#9E8036; 
+    color:#70530c; 
     background-color:#C4BE9C;
     border: 10px solid;
     padding: 10px;
@@ -196,6 +196,7 @@ section#hobbies {
 #formelements {
     display: grid;
     row-gap: .5em;
+    color:#23211b;
 }
 
 #contact {
