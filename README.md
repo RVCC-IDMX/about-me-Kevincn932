@@ -4,7 +4,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d51faf3e-19e1-41ac-944f-a4e7f1148806/deploy-status)](https://app.netlify.com/sites/kevincn932/deploys)
 
 ## Things I learned:
-I learned how to you CSS and html and build out the website. When using html I was able to make sub bullet points so i can add some additional information for the main topics of that lists of hobbies i put out. 
+I learned how to use CSS and html and build out the website. When using html I was able to make sub bullet points so i can add some additional information for the main topics of that lists of hobbies i put out. 
 
 When using paragraphs in html i learned how to line break the paragraphs. During the styling I implemented different fonts and color schemes to make the page look esthetically pleasing. Making the contrast look nice for visual impairment and also created a footer for my copyright area.
 
