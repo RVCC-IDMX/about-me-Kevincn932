@@ -16,14 +16,30 @@ Learned how to implement a video into the website using iframe and figcaption si
 
 In the web forms area I finally learned how to make a good color scheme when it came to the part for adding some style. I also learned how to create inputs and a feildset for designing how each box would react to different types like text and email.  
 
-Finally, the navigation bar, i learned how to make the navigation bar motions by putting in the code called transitions. Also making it opacity slightly low so that it doesnt fully block the stuff behind the navigation bar.  
+For the navigation bar, i learned how to make the navigation bar motions by putting in the code called transitions. Also making it opacity slightly low so that it doesnt fully block the stuff behind the navigation bar. 
 
+Finally, the logo i replaced with my bob i used slightly different color schemes for the logo so that it is visible on the top.
 ## Color Scheme:
 ![Different color schemes](img/Capture.PNG%202.PNG)
 
 -These colors i found very pleasing to the eye when i was messing around with it.
 
 ## Citations:
+-https://www.freecodecamp.org/newshow-to-turn-text-and-images-into-links-using-html
+
+This is where i figured out how to make an image based link to a website. 
+
+-https://www.youtube.com/watch?v=O7mTUtHDP5E
+
+A short youtube video on how to use animiations in a basic way and using it with keyframes 
+
+-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+Talks what an animation is and how to use it 
+
+https://blog.hubspot.com/website/css-animation
+
+Talks about different animations a website would use 
 
 ## License: 
 
